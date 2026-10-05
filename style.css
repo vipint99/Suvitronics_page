@@ -55,11 +55,25 @@ header {
     height: 70px;
 }
 
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
 .logo {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: var(--primary-color);
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 nav a {
@@ -276,4 +290,6 @@ footer {
     .navbar nav { display: none; } /* Simplicity for landing template */
     .two-col { flex-direction: column; gap: 2rem; }
     .hero h1 { font-size: 2.25rem; }
+    .logo { font-size: 0.85rem; }
+    .brand-logo { width: 35px; height: 35px; }
 }
