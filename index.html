@@ -4,69 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suvitronics Consultancy Services | Enterprise IoT, Telecom & Open Source Consulting</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Suvitronics Consultancy Services helps Fintech, Telecom and Government enterprises with secure open source solutions and intelligent IoT architecture.">
+    <meta name="theme-color" content="#081a33">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Suvitronics Consultancy Services">
+    <meta property="og:description" content="Enterprise IoT, Telecom and Open Source consulting for Fintech, Telecom and Government.">
+    <meta property="og:url" content="https://suvitronics.com/">
+    <meta property="og:image" content="https://suvitronics.com/logo3.png">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <a href="#main" class="skip-link">Skip to content</a>
+
     <header>
         <div class="container navbar">
-            <div class="brand-wrap" aria-label="Suvitronics brand">
-                <img src="logo3.png" alt="Suvitronics logo" class="brand-logo">
-                <div class="brand-text">
-                    <div class="brand-name">Suvitronics</div>
-                    <div class="brand-subtitle">Consultancy Services</div>
-                </div>
-            </div>
-            <nav>
-                <a href="#services">Services</a>
-                <a href="#about">About</a>
+            <a href="#top" class="brand-wrap" aria-label="Suvitronics Consultancy Services, home">
+                <img src="logo-mark.png" alt="" class="brand-logo" width="44" height="44">
+                <span class="brand-text">
+                    <span class="brand-name">Suvitronics</span>
+                    <span class="brand-subtitle">Consultancy Services</span>
+                </span>
+            </a>
+            <nav aria-label="Primary">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="btn-nav">Get in Touch</a>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Next-Gen Engineering & Technology Consultancy</h1>
-            <p>Empowering Fintech, Telecom, and Government enterprises with secure Open Source solutions and intelligent IoT architecture.</p>
-            <a href="#contact" class="btn-primary">Discuss Your Project</a>
+    <main id="main">
+
+    <section class="hero" id="top">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow">Software <span>/</span> IT <span>/</span> IoT <span>/</span> AI</p>
+                <h1>Next-Gen Engineering &amp; <em>Technology Consultancy</em></h1>
+                <p class="hero-lead">Empowering Fintech, Telecom, and Government enterprises with secure Open Source solutions and intelligent IoT architecture.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary">Discuss Your Project</a>
+                    <a href="#services" class="btn-ghost">See what we do <span aria-hidden="true">&rarr;</span></a>
+                </div>
+            </div>
+
+            <div class="stack" aria-hidden="true">
+                <div class="stack-head">
+                    <span>Edge to cloud</span>
+                    <span class="stack-status">Secure by design</span>
+                </div>
+                <ol class="stack-layers">
+                    <li><span class="layer-no">01</span><span class="layer-name">Sensors &amp; firmware</span><span class="layer-tag">IoT</span></li>
+                    <li><span class="layer-no">02</span><span class="layer-name">Edge &amp; connectivity</span><span class="layer-tag">Telecom</span></li>
+                    <li><span class="layer-no">03</span><span class="layer-name">Open source platform</span><span class="layer-tag">OSS</span></li>
+                    <li><span class="layer-no">04</span><span class="layer-name">Data &amp; compliance</span><span class="layer-tag">Fintech / Gov</span></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="sectors">
+                <span class="sectors-label">Working with</span>
+                <ul>
+                    <li>Fintech</li>
+                    <li>Telecom</li>
+                    <li>Government</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="services" class="services">
         <div class="container">
             <div class="section-title">
+                <p class="eyebrow">Services</p>
                 <h2>Our Core Expertise</h2>
                 <p>High-reliability systems engineered for complex digital ecosystems.</p>
             </div>
-            
+
             <div class="grid">
-                <div class="card">
-                    <div class="icon">📡</div>
+                <article class="card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.2"/><path d="M7.8 16.2a6 6 0 0 1 0-8.4M16.2 7.8a6 6 0 0 1 0 8.4M4.9 19.1a10 10 0 0 1 0-14.2M19.1 4.9a10 10 0 0 1 0 14.2"/></svg>
+                    </div>
                     <h3>Internet of Things (IoT)</h3>
                     <p>End-to-end hardware prototyping, custom firmware development, smart sensing, and secure edge-to-cloud data integration.</p>
-                </div>
+                </article>
 
-                <div class="card">
-                    <div class="icon">🌐</div>
+                <article class="card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9v12M8.5 21h7M7 4.5a7 7 0 0 0 0 9M17 4.5a7 7 0 0 1 0 9M9.6 6.6a3.6 3.6 0 0 0 0 4.8M14.4 6.6a3.6 3.6 0 0 1 0 4.8"/><circle cx="12" cy="9" r="1"/></svg>
+                    </div>
                     <h3>Telecommunications</h3>
-                    <p>Deployment and MAnagement of OSS stack</p>
-                </div>
+                    <p>Deployment and management of the OSS stack.</p>
+                </article>
 
-                <div class="card">
-                    <div class="icon">🔓</div>
+                <article class="card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.2"/><circle cx="18" cy="5" r="2.2"/><circle cx="12" cy="19" r="2.2"/><path d="M6 7.2v2.3a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V7.2M12 12.5v4.3"/></svg>
+                    </div>
                     <h3>Open Source Systems</h3>
                     <p>Building scalable, vendor-lock-free software architectures using audited, enterprise-grade open-source digital public goods.</p>
-                </div>
+                </article>
 
-                <div class="card">
-                    <div class="icon">🛡️</div>
-                    <h3>Fintech & Government</h3>
+                <article class="card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7.5 2.8v5.4c0 4.6-3 8.300-7.500 9.800-4.500-1.500-7.500-5.200-7.500-9.800V5.800L12 3z"/><path d="M8.800 12.200l2.300 2.300 4.200-4.600"/></svg>
+                    </div>
+                    <h3>Fintech &amp; Government</h3>
                     <p>Highly secure, compliant transactional systems, data integrity pipelines, and specialized software modules meeting strict regulatory standards.</p>
-                </div>
+                </article>
             </div>
         </div>
     </section>
@@ -74,26 +125,73 @@
     <section id="about" class="about">
         <div class="container two-col">
             <div class="about-text">
+                <p class="eyebrow">About</p>
                 <h2>Engineering Trust. Delivering Innovation.</h2>
                 <p>At Suvitronics, we bridge the gap between complex hardware systems and high-security enterprise software. We design frameworks that allow public sector organizations and financial institutions to modernize operations with confidence.</p>
                 <p>Whether optimizing cellular networks, configuring embedded IoT systems, or deploying high-throughput data backends, our approach prioritizes long-term architecture stability and measurable business impact.</p>
             </div>
-            <div class="about-accent">
-                <div class="accent-box"></div>
-            </div>
+            <ul class="principles">
+                <li>
+                    <span class="principle-no">01</span>
+                    <div>
+                        <h3>Long-term architecture stability</h3>
+                        <p>Systems designed to keep running, and to keep being maintainable.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="principle-no">02</span>
+                    <div>
+                        <h3>Security and compliance</h3>
+                        <p>Built for regulated public sector and financial environments.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="principle-no">03</span>
+                    <div>
+                        <h3>No vendor lock-in</h3>
+                        <p>Audited, enterprise-grade open source at the core.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="principle-no">04</span>
+                    <div>
+                        <h3>Measurable business impact</h3>
+                        <p>Engineering decisions tied to outcomes you can track.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <div class="container contact-box">
-            <h2>Let's Build Something Reliable</h2>
-            <p>Ready to discuss an optimization project, compliance architecture, or custom hardware design? Drop us a line.</p>
-            <a href="mailto:suvitronics@gmail.com" class="btn-large">suvitronics@gmail.com</a>
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-copy">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let's Build Something Reliable</h2>
+                    <p>Ready to discuss an optimization project, compliance architecture, or custom hardware design? Drop us a line.</p>
+                </div>
+                <a href="mailto:suvitronics@gmail.com" class="btn-large">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.500"/><path d="M3.500 7.500l8.500 6 8.500-6"/></svg>
+                    suvitronics@gmail.com
+                </a>
+            </div>
         </div>
     </section>
 
+    </main>
+
     <footer>
         <div class="container footer-content">
+            <a href="#top" class="footer-brand">
+                <img src="logo-mark.png" alt="" width="28" height="28" loading="lazy">
+                <span>Suvitronics Consultancy Services</span>
+            </a>
+            <nav aria-label="Footer">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
             <p>&copy; 2026 Suvitronics Consultancy Services. All rights reserved.</p>
         </div>
     </footer>
